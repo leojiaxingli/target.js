@@ -1,0 +1,42 @@
+.target-ring {
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.target-pin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align-all: center;
+    position: absolute;
+    border: white solid 1px;
+    border-radius: 50%;
+}
+
+.target-ghost-pin {
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align-all: center;
+    position: absolute;
+    border: gray solid 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+}
+
+.target-grouping {
+    pointer-events: none;
+    border-radius: 50%;
+    border: black solid 2px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+[hidden] {
+    display: none !important;
+}
